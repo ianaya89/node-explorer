@@ -1,6 +1,6 @@
 # node-explorer
 
-file-browser is a utility to browse files on your file system using your browser. Its equivalent of creating a file share that can be accessed over http. Using this you can share files between different machines, and across different operating systems. 
+A file explorer in your browser served with NodeJS
 
 ### Installation
 Open your terminal and type:

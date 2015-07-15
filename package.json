@@ -1,8 +1,8 @@
 {
   "name": "node-explorer",
   "author": "Ignacio Anaya <ignacio.anaya89@gmail.com>",
-  "version": "1.0.0",
-  "description": "file-browser is a utility to browse files on your file system using your browser. Its equivalent of creating a file share that can be accessed over http",
+  "version": "1.0.1",
+  "description": "A file explorer in your browser served with NodeJS",
   "keywords": [
     "filebrowser",
     "file browser",
