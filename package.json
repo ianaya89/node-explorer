@@ -1,7 +1,7 @@
 {
   "name": "node-explorer",
   "author": "Ignacio Anaya <ignacio.anaya89@gmail.com>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A file explorer in your browser served with NodeJS",
   "keywords": [
     "filebrowser",

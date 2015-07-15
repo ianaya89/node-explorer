@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon.png">
   <title>File Browser</title>
   <link rel="stylesheet" href="/lib/css/bootstrap.min.css">
   <link rel="stylesheet" href="/lib/css/font-awesome.min.css">
@@ -34,14 +35,14 @@
                 </h3>
               </div>
               <div class="col-xs-7">
-                <input type="search" class="form-control right" placeholder="Search">    
+                <input type="search" class="form-control right" placeholder="Filter" data-bind="value: filter, valueUpdate: 'keyup'">    
               </div>
             </div>
           </div>
           <div class="panel-body">
-            <ul data-bind="foreach: files">
+            <ul data-bind="foreach: filteredFiles">
             <li>
-              <a href="#" target="_blank" data-bind="click: $root.getDirectoryFiles">
+              <a href="#" target="_blank" data-bind="click: $root.getDirectoryFiles, attr: {href: '/' + path}">
                 <i class="fa" data-bind="css: icon"></i>
                 <span data-bind="text: name"></span>
               </a>
