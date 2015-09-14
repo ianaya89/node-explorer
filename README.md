@@ -2,7 +2,9 @@
 
 A file explorer in your browser served with NodeJS
 
+[![npm version](https://badge.fury.io/js/node-explorer.svg)](http://badge.fury.io/js/node-explorer)
 <img src='https://david-dm.org/ianaya89/node-explorer.svg'>
+
 
 ### Installation
 Open your terminal and type:
