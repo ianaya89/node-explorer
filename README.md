@@ -2,6 +2,8 @@
 
 A file explorer in your browser served with NodeJS
 
+<img src='https://david-dm.org/ianaya89/node-explorer.svg'>
+
 ### Installation
 Open your terminal and type:
 ```
